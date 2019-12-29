@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Calculator from "./Calculator";
+import Calculator from "./Calculator/component";
 import { Provider } from "react-redux";
-import "./styles.css";
-import store from './store';
+import "./Global/styles.css";
+import store from './Global/store';
 
 class App extends React.Component{
   render(){

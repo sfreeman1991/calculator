@@ -20,6 +20,7 @@ let store = createStore((state = initialState, action) => {
 store.subscribe(()=>{
     console.log(store.getState());
 });
+
 window.store = store;
 console.log(store);
 export default store;
