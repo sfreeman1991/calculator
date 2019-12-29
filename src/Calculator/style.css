@@ -1,34 +1,40 @@
 
 .key:hover {
     background: #ddd;
-  }
-  .key {
-    cursor: pointer;
-    background: #ccc;
-    width: 60px;
-    height: 45px;
-    padding-top: 15px;
-    box-sizing: border-box;
-    margin: 4px;
-    text-align: center;
-    display: inline-block;
-  }
-  .cal {
-    padding: 10px;
-    padding-top: 15px;
-    border: 1px solid #ccc;
-    display: block;
-    width: 300px;
-    margin: 0 auto;
-  }
-  
-  #display {
-    height: 70px;
-    border: 1px solid #CCC;
-    margin: 10px;
-  }
-  
-  #result,
-  #expression {
-    padding: 10px;
-  }
+}
+.key:active{
+  background: white;
+}
+.key:nth-child(4n+1){
+  font-weight:bold;
+}
+.key {
+  cursor: pointer;
+  background: #ccc;
+  width: 60px;
+  height: 45px;
+  padding-top: 15px;
+  box-sizing: border-box;
+  margin: 4px;
+  text-align: center;
+  display: inline-block;
+}
+.cal {
+  padding: 10px;
+  padding-top: 15px;
+  border: 1px solid #ccc;
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+}
+
+#display {
+  height: 70px;
+  border: 1px solid #CCC;
+  margin: 10px;
+}
+
+#result,
+#expression {
+  padding: 10px;
+}
